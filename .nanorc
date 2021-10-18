@@ -1,0 +1,6 @@
+# Display cursor position
+set constantshow
+# Display line numbers
+set linenumbers
+# Enable mouse support
+set mouse
