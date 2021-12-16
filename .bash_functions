@@ -39,15 +39,7 @@ extract() {
 
 upd() {
     echo -e "Updating \033[33mapt\033[0m packages\n"
-    pkg update -y
-    echo -e "\nUpdating \033[33mpip\033[0m\n"
-    pip install --upgrade pip
-    echo -e "\nUpdating \033[33mpip\033[0m packages\n"
-    pip install --upgrade
-    echo -e "\nUpdating \033[33mnpm\033[0m"
-    npm install --global npm@latest
-    echo -e "\nUpdating \033[33mnpm\033[0m packages"
-    npm update --global
+    pkg upgrade -y
 }
 
 setup-motd() {
