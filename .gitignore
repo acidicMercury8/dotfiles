@@ -6,3 +6,9 @@
 # Cache
 .cache/
 .npm/
+
+# Repositories
+.local/share/yadm/repo.git/
+
+# Symlinks
+storage/
