@@ -1,3 +1,3 @@
-# Termux Dotfiles
+# Dotfiles
 
-Useful dotfiles and configs for Termux applications
+Useful dotfiles and configs for different applications
