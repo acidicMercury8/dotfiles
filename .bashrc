@@ -21,3 +21,5 @@ fi
 if [[ -f "${HOME}/.bash_functions" ]]; then
     source "${HOME}/.bash_functions"
 fi
+
+export PATH="${HOME}/.luarocks/bin:$PATH"
