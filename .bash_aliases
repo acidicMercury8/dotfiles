@@ -4,6 +4,7 @@ alias histg="history | grep"
 alias which="command -v $1"
 
 alias c="clear"
+alias e="exit"
 
 alias ls="ls -a"
 alias lt="ls --human-readable --size $1 -S --classify"
