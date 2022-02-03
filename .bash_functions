@@ -46,3 +46,13 @@ setup-motd() {
     cp .files/termux/motd ${PREFIX}/etc/motd
     cp .files/termux/bash.bashrc ${PREFIX}/etc/bash.bashrc
 }
+
+setup-ubuntu() {
+    cp .files/termux-ubuntu/.profile ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.profile
+    cp .files/termux-ubuntu/.bashrc ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.bashrc
+    cp .files/termux-ubuntu/.bash_aliases ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.bash_aliases
+    cp .files/termux-ubuntu/.bash_functions ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.bash_functions
+    cp .files/termux-ubuntu/.bash_logout ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.bash_logout
+    cp .files/termux-ubuntu/.ghci ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.ghci
+    cp .files/termux-ubuntu/.stack/config.yaml ${PREFIX}/var/lib/proot-distro/installed-rootfs/ubuntu/root/.stack/config.yaml
+}
