@@ -43,6 +43,6 @@ upd() {
 }
 
 setup-motd() {
-    cp .files/motd ${PREFIX}/etc/motd
-    cp .files/bash.bashrc ${PREFIX}/etc/bash.bashrc
+    cp .files/termux/motd ${PREFIX}/etc/motd
+    cp .files/termux/bash.bashrc ${PREFIX}/etc/bash.bashrc
 }
