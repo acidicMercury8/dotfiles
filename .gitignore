@@ -6,6 +6,7 @@
 # Cache
 .cache/
 .npm/
+.luarocks/
 
 # Repositories
 .local/share/yadm/repo.git/
