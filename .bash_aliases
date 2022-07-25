@@ -17,7 +17,7 @@ alias cmount="mount | column -t"
 alias meminfo="free -m -l -t"
 alias ps?="ps aux | grep"
 
-alias getsite="wget --random-wait -r -p -e --robots=off -U mozilla"
+alias getsite="wget2 --random-wait -r -p -e --robots=off -U mozilla"
 alias listen="lsof -P -i -n"
 alias ipinfo="curl ifconfig.me && curl ifconfig.me/host"
 
