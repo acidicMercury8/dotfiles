@@ -1,0 +1,40 @@
+[core]
+	autocrlf = false
+	fscache = false
+	symlinks = true
+	longpaths = true
+	editor = code --wait
+
+[safe]
+	directory = *
+
+[http]
+	sslBackend = openssl
+	postBuffer = 524288000
+	# sslBackend = schannel
+	# sslVerify = false
+
+[user]
+	name = #
+	email = #
+
+[init]
+	defaultBranch = default
+
+[pull]
+	rebase = true
+
+[diff "astextplain"]
+	textconv = astextplain
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[credential]
+	helper = manager
+
+[credential "https://dev.azure.com"]
+	useHttpPath = true
