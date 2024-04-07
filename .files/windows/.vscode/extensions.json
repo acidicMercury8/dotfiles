@@ -1,0 +1,48 @@
+{
+    "recommendations": [
+        "EditorConfig.EditorConfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "DavidAnson.vscode-markdownlint",
+        "leodevbro.blockman",
+        "IBM.output-colorizer",
+        "kruemelkatze.vscode-dashboard",
+        "vscode-icons-team.vscode-icons",
+
+        "DotJoshJohnson.xml",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "zgm.cuesheet",
+
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-wsl",
+
+        "GitHub.vscode-github-actions",
+        "GitLab.gitlab-workflow",
+
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "Codeium.codeium",
+
+        "fernandoescolar.vscode-solution-explorer",
+        "ms-dotnettools.csharp",
+        "formulahendry.dotnet-test-explorer",
+        "AvaloniaTeam.vscode-avalonia",
+
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.makefile-tools",
+
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+
+        "xdebug.php-debug",
+
+        "firefox-devtools.vscode-firefox-debug",
+
+        "platformio.platformio-ide"
+    ]
+}

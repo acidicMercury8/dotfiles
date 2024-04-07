@@ -1,0 +1,58 @@
+{
+    "diffEditor.wordWrap": "off",
+
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.linkedEditing": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "off",
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+
+    "files.autoGuessEncoding": true,
+
+    "git.autofetch": false,
+    "git.defaultBranchName": "default",
+    "git.openRepositoryInParentFolders": "never",
+
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "telemetry.telemetryLevel": "off",
+
+    "update.mode": "start",
+
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.editor.defaultBinaryEditor": "default",
+    "workbench.iconTheme": "vscode-icons",
+
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.showOptionsMovedNotification": false,
+
+    "dashboard.openOnStartup": "empty workspace",
+
+    "redhat.telemetry.enabled": false,
+
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "vssolution.lineEndings": "crlf",
+
+    "gitlens.telemetry.enabled": false,
+
+    "docker.images.groupBy": "Repository",
+    "docker.images.sortBy": "Label",
+
+    "dotnet-test-explorer.enableTelemetry": false,
+    "dotnetAcquisitionExtension.enableTelemetry": false
+}
