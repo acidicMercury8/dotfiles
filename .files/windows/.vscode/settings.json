@@ -1,6 +1,4 @@
 {
-    "diffEditor.wordWrap": "off",
-
     "editor.guides.indentation": false,
     "editor.guides.bracketPairs": false,
     "editor.inlayHints.enabled": "off",
@@ -12,47 +10,89 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.wordWrap": "off",
 
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+
+    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 
+    "update.mode": "start",
     "extensions.autoUpdate": "onlyEnabledExtensions",
 
     "files.autoGuessEncoding": true,
 
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.maxComputationTime": 0,
+    "diffEditor.wordWrap": "off",
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
     "git.autofetch": false,
+    "git.confirmSync": false,
     "git.defaultBranchName": "default",
     "git.openRepositoryInParentFolders": "never",
 
-    "security.workspace.trust.untrustedFiles": "open",
-
     "telemetry.telemetryLevel": "off",
 
-    "update.mode": "start",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
 
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#1073cf2d",
         "editor.lineHighlightBorder": "#9fced11f"
     },
-    "workbench.startupEditor": "none",
     "workbench.editor.defaultBinaryEditor": "default",
     "workbench.iconTheme": "vscode-icons",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.startupEditor": "none",
 
     "cmake.options.statusBarVisibility": "compact",
     "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
 
     "dashboard.openOnStartup": "empty workspace",
 
+    "dotnet-test-explorer.enableTelemetry": false,
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "partialDiff.enableTelemetry": false,
     "redhat.telemetry.enabled": false,
-
     "vsicons.dontShowNewVersionMessage": true,
 
     "vssolution.lineEndings": "crlf",
 
-    "gitlens.telemetry.enabled": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "containers.images.groupBy": "Repository",
+    "containers.images.sortBy": "Label",
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
 
-    "docker.images.groupBy": "Repository",
-    "docker.images.sortBy": "Label",
+    "vscode-lua-format.binaryPath": "",
 
-    "dotnet-test-explorer.enableTelemetry": false,
-    "dotnetAcquisitionExtension.enableTelemetry": false
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+
+    "[lua]": {
+        "editor.defaultFormatter": "sumneko.lua"
+    }
 }
